@@ -1,0 +1,6 @@
+[submodule "plugins/cache-necromancer"]
+	path = plugins/cache-necromancer
+	url = https://github.com/token-keeper/cache-necromancer.git
+[submodule "plugins/token-tracker"]
+	path = plugins/token-tracker
+	url = https://github.com/token-keeper/token-tracker.git

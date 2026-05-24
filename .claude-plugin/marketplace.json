@@ -1,0 +1,24 @@
+{
+  "name": "token-keeper",
+  "description": "Token economy plugins for Claude Code — 캐시 / 토큰 비용 최적화 도구 모음",
+  "owner": {
+    "name": "token-keeper",
+    "url": "https://github.com/token-keeper"
+  },
+  "plugins": [
+    {
+      "name": "cache-necromancer",
+      "description": "Claude Code 1시간 프롬프트 캐시 만료 직전 자동 갱신 — 비용 ×20 폭발 방지",
+      "source": "./plugins/cache-necromancer",
+      "category": "productivity",
+      "tags": ["cache", "cost-saving", "hooks", "prompt-cache", "korean"]
+    },
+    {
+      "name": "token-tracker",
+      "description": "매 Stop 마다 1줄 토큰 비용 요약 표시 — 캐시 적중률 / 출력 토큰 / 누적 비용",
+      "source": "./plugins/token-tracker",
+      "category": "productivity",
+      "tags": ["tokens", "cost", "tracking", "hooks", "verbose"]
+    }
+  ]
+}
