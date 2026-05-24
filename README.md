@@ -1,4 +1,4 @@
-한국어 · [English](README.md) (TODO)
+**한국어** · English (TODO)
 
 # token-keeper
 
