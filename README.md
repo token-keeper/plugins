@@ -1,12 +1,53 @@
 **한국어** · English (TODO)
 
+<p align="center">
+  <img src="docs/assets/token-keeper-marketplace-banner.png" alt="token-keeper marketplace dungeon entrance banner" width="100%" />
+</p>
+
 # token-keeper
 
 > **Claude Code 토큰 비용 최적화 플러그인 모음.**
 
 Claude Code 를 오래 쓰다 보면 캐시 만료 / 모르는 사이 폭증한 토큰 사용량 때문에 비용이 빠르게 새어 나갑니다. token-keeper 는 그 구멍 하나하나를 막기 위한 도구 모음입니다.
 
-[빠른 시작](#빠른-시작) • [플러그인](#사용-가능한-플러그인) • [요구사항](#요구사항) • [라이선스](#라이선스)
+[빠른 시작](#빠른-시작) • [팀원 소개](#팀원-소개) • [플러그인](#사용-가능한-플러그인) • [요구사항](#요구사항) • [라이선스](#라이선스)
+
+---
+
+## 팀원 소개
+
+던전 입구에서 합류할 동료들입니다. 필요한 동료를 골라 설치하세요.
+
+<table>
+  <tr>
+    <td width="180" align="center" valign="top">
+      <img src="docs/assets/cache-necromancer-portrait.png" alt="cache-necromancer portrait" width="160" />
+    </td>
+    <td valign="top">
+      <h3>cache-necromancer</h3>
+      <p><strong>“잠든 캐시여... 일어나라.”</strong></p>
+      <p>자리를 비웠을 때 캐시가 만료되지 않게 해줍니다.</p>
+      <p><code>/plugin install cache-necromancer</code></p>
+      <p>
+        <a href="https://github.com/token-keeper/cache-necromancer">Repository</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="180" align="center" valign="top">
+      <img src="docs/assets/token-tracker-portrait.png" alt="token-tracker portrait" width="160" />
+    </td>
+    <td valign="top">
+      <h3>token-tracker</h3>
+      <p><strong>“이 프롬프트, 얼마짜리인지 알려드리리다.”</strong></p>
+      <p>매 응답 끝에 토큰 사용량, 캐시 적중률, 누적 비용을 요약합니다.</p>
+      <p><code>/plugin install token-tracker</code></p>
+      <p>
+        <a href="https://github.com/token-keeper/token-tracker">Repository</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
