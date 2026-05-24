@@ -25,6 +25,7 @@ Claude Code 를 오래 쓰다 보면 캐시 만료 / 모르는 사이 폭증한 
       <strong>cache-necromancer</strong>
     </td>
     <td valign="top">
+      <br/>
       <p><strong>“잠든 캐시여... 일어나라.”</strong></p>
       <p>자리를 비웠을 때 캐시가 만료되지 않게 해줍니다.</p>
       <p><code>/plugin install cache-necromancer</code></p>
@@ -39,6 +40,7 @@ Claude Code 를 오래 쓰다 보면 캐시 만료 / 모르는 사이 폭증한 
       <strong>token-tracker</strong>
     </td>
     <td valign="top">
+      <br/>
       <p><strong>“이 프롬프트, 얼마짜리인지 알려드리리다.”</strong></p>
       <p>매 응답 끝에 토큰 사용량, 캐시 적중률, 누적 비용을 요약합니다.</p>
       <p><code>/plugin install token-tracker</code></p>
