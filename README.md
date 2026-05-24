@@ -4,11 +4,10 @@
   <img src="docs/assets/token-keeper-marketplace-banner.png" alt="token-keeper marketplace dungeon entrance banner" width="100%" />
 </p>
 
-# token-keeper
-
 > **Claude Code 비용 던전에 입장할 동료들을 고르는 마켓플레이스.**
 
-Claude Code 를 오래 쓰다 보면 캐시는 잠들고, 토큰은 몰래 새고, 비용 몬스터가 조용히 자랍니다. token-keeper 는 캐시를 깨우고 사용량을 추적해 비용 던전을 함께 공략하는 플러그인 파티입니다.
+Claude Code 를 오래 쓰다 보면 캐시는 잠들고, 토큰은 몰래 새고, 비용 몬스터가 조용히 자랍니다.<br/>
+token-keeper 는 캐시를 깨우고 사용량을 추적해 비용 던전을 함께 공략하는 플러그인 파티입니다.
 
 [던전 입장](#빠른-시작) • [동료 선택](#팀원-소개) • [플러그인 목록](#사용-가능한-플러그인) • [요구사항](#요구사항) • [라이선스](#라이선스)
 
