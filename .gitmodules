@@ -4,3 +4,6 @@
 [submodule "plugins/token-tracker"]
 	path = plugins/token-tracker
 	url = https://github.com/token-keeper/token-tracker.git
+[submodule "plugins/hook-raider"]
+	path = plugins/hook-raider
+	url = https://github.com/token-keeper/hook-raider.git

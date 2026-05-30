@@ -19,6 +19,13 @@
       "source": "./plugins/token-tracker",
       "category": "productivity",
       "tags": ["tokens", "cost", "tracking", "hooks", "verbose"]
+    },
+    {
+      "name": "hook-raider",
+      "description": "Claude Code 의 모든 hook 이벤트(30종)를 캡처해 로컬 웹 UI 에서 대화 turn 단위로 실시간 관찰 — hook 학습·디버깅 도구",
+      "source": "./plugins/hook-raider",
+      "category": "productivity",
+      "tags": ["hooks", "observability", "debugging", "sse", "korean"]
     }
   ]
 }
