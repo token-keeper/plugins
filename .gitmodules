@@ -7,3 +7,6 @@
 [submodule "plugins/hook-raider"]
 	path = plugins/hook-raider
 	url = https://github.com/token-keeper/hook-raider.git
+[submodule "plugins/what-did-i-say"]
+	path = plugins/what-did-i-say
+	url = https://github.com/token-keeper/what-did-i-say.git

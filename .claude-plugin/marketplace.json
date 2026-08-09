@@ -26,6 +26,13 @@
       "source": "./plugins/hook-raider",
       "category": "productivity",
       "tags": ["hooks", "observability", "debugging", "sse", "korean"]
+    },
+    {
+      "name": "what-did-i-say",
+      "description": "턴이 끝날 때 방금 요청한 프롬프트+시각을 한 줄로 재표시, /wdis N 으로 최근 요청 이력 조회",
+      "source": "./plugins/what-did-i-say",
+      "category": "productivity",
+      "tags": ["hooks", "prompt-history", "productivity", "korean"]
     }
   ]
 }
