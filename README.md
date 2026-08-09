@@ -24,7 +24,7 @@
     </td>
     <td valign="top">
       <br/>
-      <p><strong>“잠든 캐시여... 일어나라.”</strong></p>
+      <p><strong>“만료 직전, 캐시를 되살린다.”</strong></p>
       <p>자리를 비웠을 때 캐시가 만료되지 않게 해줍니다.</p>
       <p><code>/plugin install cache-necromancer</code></p>
       <p>
@@ -39,7 +39,7 @@
     </td>
     <td valign="top">
       <br/>
-      <p><strong>“이 프롬프트, 얼마짜리인지 알려드리리다.”</strong></p>
+      <p><strong>“응답 끝마다 계산서를 붙인다.”</strong></p>
       <p>매 응답 끝에 토큰 사용량, 캐시 적중률, 누적 비용을 요약합니다.</p>
       <p><code>/plugin install token-tracker</code></p>
       <p>
@@ -54,7 +54,7 @@
     </td>
     <td valign="top">
       <br/>
-      <p><strong>“던전 안 모든 훅의 움직임, 이미 보고 있소.”</strong></p>
+      <p><strong>“모든 훅을 턴마다 추적한다.”</strong></p>
       <p>Claude Code 의 모든 hook 이벤트(30종)를 캡처해 로컬 웹 UI 에서 대화 turn 단위로 실시간 관찰합니다.</p>
       <p><code>/plugin install hook-raider</code></p>
       <p>
@@ -69,7 +69,7 @@
     </td>
     <td valign="top">
       <br/>
-      <p><strong>“방금 내리신 명, 여기 적어두었습니다.”</strong></p>
+      <p><strong>“매 턴의 요청을 한 줄로 기록한다. ‘뭐라고 했더라’는 이제 없다.”</strong></p>
       <p>턴이 끝날 때 방금 요청한 프롬프트와 시각을 한 줄로 다시 보여주고, <code>/wdis N</code> 으로 최근 요청 이력을 조회합니다.</p>
       <p><code>/plugin install what-did-i-say</code></p>
       <p>
