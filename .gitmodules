@@ -10,3 +10,6 @@
 [submodule "plugins/what-did-i-say"]
 	path = plugins/what-did-i-say
 	url = https://github.com/token-keeper/what-did-i-say.git
+[submodule "plugins/annoying-point"]
+	path = plugins/annoying-point
+	url = https://github.com/token-keeper/annoying-point.git

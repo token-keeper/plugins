@@ -96,6 +96,7 @@
 /plugin install token-tracker
 /plugin install hook-raider
 /plugin install what-did-i-say
+/plugin install annoying-point
 ```
 
 또는 메뉴에서 고르기:
@@ -124,6 +125,8 @@
 | [token-tracker](https://github.com/token-keeper/token-tracker) | 매 응답 끝에 1줄 토큰 비용 요약 — 캐시 적중률 / 출력 토큰 / 누적 비용 |
 | [hook-raider](https://github.com/token-keeper/hook-raider) | Claude Code 의 모든 hook 이벤트(30종)를 캡처해 로컬 웹 UI 에서 대화 turn 단위로 실시간 관찰 — hook 학습·디버깅 도구 |
 | [what-did-i-say](https://github.com/token-keeper/what-did-i-say) | 턴이 끝날 때 방금 요청한 프롬프트+시각을 한 줄로 재표시, `/wdis N` 으로 최근 요청 이력 조회 |
+
+| [annoying-point](https://github.com/token-keeper/annoying-point) | AI 개발 중 짜증·좋은점을 `/ap` 한 줄로 캡처(메인 세션 턴 0·토큰 0), 백그라운드 세션 포크로 상황 요약 자동 첨부, `/ap-review` 로 모아 하네스·스킬 수정 — Claude Code·Codex·Cursor 공용 |
 
 > 플러그인은 계속 추가됩니다.
 
