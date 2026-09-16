@@ -59,7 +59,7 @@
     },
     {
       "name": "annoying-point",
-      "description": "AI 개발 중 짜증·좋은점을 /ap 한 줄로 캡처(훅 가로채기 — 메인 세션 턴 0·토큰 0) → 백그라운드 세션 포크로 상황 요약 자동 첨부 → /ap-review 로 모아 하네스·스킬 수정. Claude Code·Codex·Cursor 공용",
+      "description": "AI 개발 중 짜증·좋은점을 /add 한 줄로 캡처(훅 가로채기 — 메인 세션 턴 0·토큰 0) → 백그라운드 세션 포크로 상황 요약 자동 첨부 → /annoying-point:review 로 모아 하네스·스킬 수정. Claude Code·Codex·Cursor 공용",
       "source": "./plugins/annoying-point",
       "category": "productivity",
       "tags": [
