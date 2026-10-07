@@ -25,7 +25,7 @@
     <td valign="top">
       <br/>
       <p><strong>“만료 직전, 캐시를 되살린다.”</strong></p>
-      <p>자리를 비웠을 때 캐시가 만료되지 않게 해줍니다.</p>
+      <p>자리를 비웠을 때 캐시가 만료되지 않게 해줍니다. 대기 중엔 프롬프트 위에 캐시 남은 시간을 카운트다운으로 보여줍니다(mods, Claude Code v2.1.286+).</p>
       <p><code>/plugin install cache-necromancer</code></p>
       <p>
         <a href="https://github.com/token-keeper/cache-necromancer">Repository</a>
@@ -69,8 +69,8 @@
     </td>
     <td valign="top">
       <br/>
-      <p><strong>“매 턴의 요청을 한 줄로 기록한다. ‘뭐라고 했더라’는 이제 없다.”</strong></p>
-      <p>턴이 끝날 때 방금 요청한 프롬프트와 시각을 한 줄로 다시 보여주고, <code>/wdis N</code> 으로 최근 요청 이력을 조회합니다.</p>
+      <p><strong>“방금 한 요청을 프롬프트 위에 붙여둔다. ‘뭐라고 했더라’는 이제 없다.”</strong></p>
+      <p>답변이 끝나면 프롬프트 바로 위 띠에 방금 요청한 프롬프트와 시각을 박스로 보여주고(mods, Claude Code v2.1.286+), <code>/wdis N</code> 으로 최근 요청 이력을 조회합니다.</p>
       <p><code>/plugin install what-did-i-say</code></p>
       <p>
         <a href="https://github.com/token-keeper/what-did-i-say">Repository</a>
@@ -121,10 +121,10 @@
 
 | 플러그인 | 한 줄 설명 |
 |---------|------|
-| [cache-necromancer](https://github.com/token-keeper/cache-necromancer) | 1시간 프롬프트 캐시 만료 직전 자동 갱신 — `cache_read` 유지로 다음 입력 비용 ×20 폭발 방지 |
+| [cache-necromancer](https://github.com/token-keeper/cache-necromancer) | 1시간 프롬프트 캐시 만료 직전 자동 갱신 — `cache_read` 유지로 다음 입력 비용 ×20 폭발 방지 · 대기 중 남은 시간 카운트다운 띠(mods) |
 | [token-tracker](https://github.com/token-keeper/token-tracker) | 매 응답 끝에 1줄 토큰 비용 요약 — 캐시 적중률 / 출력 토큰 / 누적 비용 |
 | [hook-raider](https://github.com/token-keeper/hook-raider) | Claude Code 의 모든 hook 이벤트(30종)를 캡처해 로컬 웹 UI 에서 대화 turn 단위로 실시간 관찰 — hook 학습·디버깅 도구 |
-| [what-did-i-say](https://github.com/token-keeper/what-did-i-say) | 턴이 끝날 때 방금 요청한 프롬프트+시각을 한 줄로 재표시, `/wdis N` 으로 최근 요청 이력 조회 |
+| [what-did-i-say](https://github.com/token-keeper/what-did-i-say) | 답변이 끝나면 프롬프트 위 띠에 방금 요청한 프롬프트+시각 표시(mods), `/wdis N` 으로 최근 요청 이력 조회 |
 
 | [annoying-point](https://github.com/token-keeper/annoying-point) | AI 개발 중 짜증·좋은점을 `/add` 한 줄로 캡처(메인 세션 턴 0·토큰 0), 백그라운드 세션 포크로 상황 요약 자동 첨부, `/annoying-point:review` 로 모아 하네스·스킬 수정 — Claude Code·Codex·Cursor 공용 |
 

@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "cache-necromancer",
-      "description": "Claude Code 1시간 프롬프트 캐시 만료 직전 자동 갱신 — 비용 ×20 폭발 방지",
+      "description": "Claude Code 1시간 프롬프트 캐시 만료 직전 자동 갱신 — 비용 ×20 폭발 방지 · 프롬프트 위 캐시 남은 시간 카운트다운(mods)",
       "source": "./plugins/cache-necromancer",
       "category": "productivity",
       "tags": [
@@ -47,7 +47,7 @@
     },
     {
       "name": "what-did-i-say",
-      "description": "턴이 끝날 때 방금 요청한 프롬프트+시각을 한 줄로 재표시, /wdis N 으로 최근 요청 이력 조회",
+      "description": "답변이 끝나면 프롬프트 위 띠에 마지막 요청+시각을 박스로 표시(mods, Claude Code v2.1.286+), /wdis N 으로 최근 요청 이력 조회",
       "source": "./plugins/what-did-i-say",
       "category": "productivity",
       "tags": [
